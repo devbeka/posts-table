@@ -1,0 +1,39 @@
+.item {
+  color: #474955;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 138%;
+
+  &__id {
+    width: 110px;
+    text-align: center;
+  }
+  &__title {
+    width: 529px;
+  }
+  &__body {
+    width: 432px;
+  }
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  display: block;
+}
+
+td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: start;
+  align-items: center;
+}
+
+
+.not_found {
+  text-align: center;
+  margin-top: 10px;
+}

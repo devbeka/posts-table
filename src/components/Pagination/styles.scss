@@ -1,0 +1,45 @@
+.pagination {
+  max-width: 1077px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+
+  div {
+    span {
+      margin-right: 5px;
+      color: #474955;
+      font-size: 18px;
+      font-style: italic;
+      font-weight: 700;
+      line-height: 137.687%;
+      cursor: pointer;
+    }
+    .active__page {
+      color: #7ebc3c;
+    }
+  }
+  button {
+    background: transparent;
+    border: none;
+    color: #474955;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 137.687%;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 500px) {
+  .pagination {
+    button {
+      font-size: 16px;
+    }
+    div {
+      span {
+        font-size: 14px;
+      }
+    }
+  }
+}
